@@ -14,7 +14,7 @@ public:
 
   // cast the instance to bool so we can declare the variable in an if
   // ex: "if (rgForeachContainer< typeof(cont) > _container_ = cont)"
-  operator bool()
+  operator bool() throw()
   {
     return (true);
   }
